@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -28,6 +29,16 @@
     color: #96BB7C;
     border-bottom: 1px solid #96BB7C;
     cursor: pointer;
+}
+
+
+.on{
+color: #96BB7C;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height : 1.5rem;
+letter-spacing: 0.00625rem;
 }
 
 .Login{
@@ -78,8 +89,26 @@
 .hero-section{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    width: 80%;
+    gap: 1.88rem;
+    max-width: 35rem;
+}
+
+.hero-section h1{
+color: #252B42;
+font-size: 3.625rem;
+font-style: normal;
+font-weight: 900;
+line-height: 5rem;
+letter-spacing: 0.0125rem;
+}
+
+.hero-section p{
+color: #737373;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem;
+letter-spacing: 0.0125rem;
 }
 
 .green-bg-left{
@@ -106,11 +135,6 @@
     display: flex;
 }
 
-
-.Online{
-    color: #96BB7C;
-    font-size: 20px;
-}
 .nav-info h1{
     font-size: 58px;
 
@@ -714,10 +738,10 @@ letter-spacing: 0.2px;
 
     .hero-main{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 50px;
         width: 100%;
-        padding: 300px 5%;
+        padding: 200px 5%;
     }
 
     .hero-right img{
@@ -831,34 +855,13 @@ letter-spacing: 0.2px;
 }
 
 @media (max-width:481px){
-    .navbar{
-        margin-left: 30px;
+    
+    .hero-section{
+        max-width: 17rem;
     }
-
-   
-    .navbar-right{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 35px;
-        height: 450px;
-        width: 350px;
-    }
-
-    .navbar-right img{
-        width: 350px;
-        
-    }
-    .nav{
-        width: 300px;
-    }
-    .nav ul{
-        gap: 30px;
-    }
-
-    .nav-info{
-        top: 867px;
-        left: 30px;
+    .hero-section h1{
+      font-size: 2rem;
+      line-height: 3rem;
     }
 
     .sec-2{
