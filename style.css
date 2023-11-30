@@ -81,8 +81,9 @@ letter-spacing: 0.00625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 5%;
+    padding: 0 5%;
     width: 100%;
+    padding-top: 200px;
 }
 
 
@@ -193,8 +194,17 @@ letter-spacing: 0.0125rem;
 .sec-2{
     display: flex;
     flex-direction: column;
-    gap: 100px;
-    margin-top: 200px;
+    gap: 7rem;
+    padding: 7rem 5%;
+}
+
+.Online{
+color: #96BB7C;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: 0.0125rem;
 }
 
 .con-2{
@@ -204,8 +214,21 @@ letter-spacing: 0.0125rem;
     gap: 10px;
 }
 .con-2 h1{
-    font-size: 40px;
+    color: #252B42;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.125rem;
+    letter-spacing: 0.0125rem;
+}
 
+.con-2 p{
+    color: #737373;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.0125rem;
 }
 
 .bar-1{
@@ -706,8 +729,12 @@ letter-spacing: 0.2px;
     height: 400px;
    }
 
+   .hero-main{
+    margin-top: 5rem;
+   }
+
    .sec-2-container{
-    padding: 0 10%;
+    padding: 0 5%;
    }
 
     .sec-5{
@@ -741,7 +768,7 @@ letter-spacing: 0.2px;
         flex-direction: column-reverse;
         gap: 50px;
         width: 100%;
-        padding: 200px 5%;
+        padding: 0 5%;
     }
 
     .hero-right img{
@@ -750,30 +777,6 @@ letter-spacing: 0.2px;
     }
 
 
-
-    .container-1{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar{
-        margin-top: -200px;
-        width: 400px;
-        margin-left: 180px;
-        
-    }
-
-    .nav-right button{
-        width: auto;
-        height: auto;
-    }
-  .navbar-right{
-    margin-top: 225px;
-    width: 600px;
-    justify-content: center;
-    margin-left: 100px;
-    height: 630px;
-  }
 
     .sec-2-container{
         width: 100%;
@@ -789,12 +792,11 @@ letter-spacing: 0.2px;
     }
 
     .sec-2{
-        margin-top: 400px;
+        
     }
 
     .con-2{
-        width: 420px;
-        text-align: center;
+        max-width: 420px;
         margin: auto;
     }
 
@@ -865,73 +867,53 @@ letter-spacing: 0.2px;
     }
 
     .sec-2{
-        margin-top: 480px;
         justify-content: center;
         align-items: center;
         display: flex;
         width: 100%;
-        margin-left: 20px;
     }
 
-    .sec-3{
-        margin-left: 20px;
-    }
-    .sec-4{
-        margin-left: 20px;
+    .hero-main{
+        padding-top: 15rem;
+        justify-content: center;
+        align-items: center;
     }
 
-    .sec-5{
-        margin-left: 20px;
-    }
+   .sec-2-bars{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+   }
+
 }
 
 
 @media (max-width:350px){
 
+    .hero-right img{
+        max-width: 12rem;
+    }
 
-    .nav ul{
-        display: flex;
+    .hero-section{
+        max-width: 12rem;
+    }
+    .nav{
         flex-direction: column;
-        gap: 50px;
-        margin-top: 140px;
-    }
-
-    .navbar{
-        margin-left: 90px;
-    }
-
-    .sec3-left img{
-        width: 250px;
-    }
-    .sec3-right{
-        width: 250px;
+        gap: 20px;
     }
 
     .sec-2-bars{
         display: flex;
         flex-direction: column;
+        max-width: 12rem;
     }
+    
     .con-2{
-        width: 250px;
+        max-width: 12rem;
     }
 
-    .nav-info{
-        width: 250px;
-    }
-    .nav-info h1{
-        font-size: 25px;
-    }
-    .sec4-left img{
-        width: 250px;
-    }
-    .sec-5-con{
-        width: 250px;
-    }
-    .sec-5-bottom{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        margin-left: 20px;
+    .green-bg-left{
+        display: none;
     }
 
 }
