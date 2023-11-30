@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 280px;
+    padding: 20px 20%;
     align-items: center;
 }
 
@@ -69,8 +69,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 100px 0;
-    padding-left: 200px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -241,7 +241,7 @@
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    width: 1045px;
+    width: 80%;
 
     
 }
@@ -285,7 +285,7 @@
 .sec-4-con{
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
+    width: 80%;
     padding: 160px 0;
     gap: 50px;
     margin: auto;
@@ -302,7 +302,7 @@
 }
 
 .sec-5{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -317,7 +317,7 @@
 
 }
 .sec-5-con{
-    width: 691px;
+    width: auto;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -421,7 +421,7 @@ letter-spacing: 0.1px;
     gap: 30px;
     margin: auto;
     justify-content: center;
-    margin-top: 112px;
+    margin-top: -40px;
 }
 
 .sec-5{
@@ -666,14 +666,24 @@ letter-spacing: 0.2px;
 
 @media (max-width:1280px){
 
-    .navbar-right{
-        width: 380px;
-        height: 500px;
-    }
+   .nav li{
+    display: none;
+   }
+   .green-bg-right{
+    display: none;
+   }
 
-    .navbar{
-        gap: 53px;
-    }
+   .green-bg-left{
+    z-index: -1;
+   }
+   .hero-right img{
+    width: 400px;
+    height: 400px;
+   }
+
+   .sec-2-container{
+    padding: 0 10%;
+   }
 
     .sec-5{
         justify-content: center;
@@ -691,6 +701,10 @@ letter-spacing: 0.2px;
         justify-content: center;
         align-items: center;
         gap: 90px;
+    }
+
+    .sec-6-bottom{
+        width: 80%;
     }
 
 }
