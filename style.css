@@ -2,32 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #2D4059;
     
 }
 
 
-.left-nav{
-    width: 260px;
-    height: 250px;
-    border-bottom-right-radius: 50px;
-    background:rgb(239, 248, 237);
-
-}
-
-.navbar{
+.nav{
     display: flex;
-    gap: 100px;
+    justify-content: space-between;
     width: 100%;
-    height: 4rem;
+    padding: 20px 280px;
     align-items: center;
-    margin-left: 100px;
-    margin-top: 27px;
-    margin-right: 197px;
-    cursor: pointer;
-} 
-
-
+}
 
 .nav ul{
     display: flex;
@@ -36,30 +21,27 @@
 
 .nav li{
     list-style: none;
-    color: #737373;
-    font-size: 20px;
-    border-bottom: 1px solid transparent;
 }
-
-
 .nav li:hover{
     color: #96BB7C;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #96BB7C;
     cursor: pointer;
 }
 
-.nav-right{
+.Login{
     display: flex;
     gap: 50px;
-    margin-top: 30px;
-    margin-left: 100px;
+    justify-content: center;
     align-items: center;
+}
+
+.Login p{
     color: #96BB7C;
 }
 
-.nav-right button{
-    width: 137px;
-    height: 52px;
+.Login button{
+    width: auto;
+    height: auto;
     background: #96BB7C;
     border-radius: 5px;
     padding: 15px 25px;
@@ -76,41 +58,53 @@
     border: 0;
 }
 
-.nav-right button:hover{
+.Login button:hover{
     background: green;
     gap: 20px;
     font-weight: bold;
+}
 
+.hero-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    padding-left: 200px;
+    padding-right: 100px;
 }
 
 
-.navbar-right{
-    width: 700px;
-    height: 700px;
-    background: rgb(239, 248, 237);
+.hero-section{
     display: flex;
     flex-direction: column;
-    
+    gap: 50px;
+    width: 30%;
 }
 
-.navbar-right img{
-    margin: 12px 36px 0 7px;
+.green-bg-left{
+    width: 150px;
+    height: 300px;
+    border-bottom-right-radius: 20px;
+    background: rgb(239, 248, 237);
+    position: absolute;
+    top:0;
 }
+.green-bg-right{
+    width: 700px;
+    height: 800px;
+    background: rgb(239, 248, 237);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
 
 .container-1{
     display: flex;
 }
 
-
-.nav-info{
-    position: absolute;
-    top: 280px;
-    left: 200px;
-    width: 573px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
 
 .Online{
     color: #96BB7C;
@@ -513,6 +507,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 20px; 
 letter-spacing: 0.2px;
+width: auto;
 }
 
 
@@ -521,6 +516,9 @@ letter-spacing: 0.2px;
     flex-direction: column;
     gap: 50px;
     justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: auto;
 }
 
 .box-1{
