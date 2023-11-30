@@ -279,7 +279,7 @@ letter-spacing: 0.0125rem;
 }
 
 .sec-3{
-    padding: 160px 0;
+    padding: 0 5%;
     width: 100%;
 
 }
@@ -289,7 +289,7 @@ letter-spacing: 0.0125rem;
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    width: 80%;
+    width: 70%;
 
     
 }
@@ -333,13 +333,11 @@ letter-spacing: 0.0125rem;
 .sec-4-con{
     display: flex;
     flex-direction: row-reverse;
-    width: 80%;
-    padding: 160px 0;
-    gap: 50px;
+    width: 70%;
+    padding: 10rem 5%;
+    justify-content: space-between;
     margin: auto;
     align-items: center;
-    justify-content: center;
-
 }
 
 
@@ -350,7 +348,7 @@ letter-spacing: 0.0125rem;
 }
 
 .sec-5{
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -365,12 +363,21 @@ letter-spacing: 0.0125rem;
 
 }
 .sec-5-con{
-    width: auto;
+    width: 69rem;
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    gap: 0.625rem;
     flex-direction: column;
-    align-items: flex-start;
+    padding: 0 5%;
+
+}
+
+.para{
+color:#737373;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem;
+letter-spacing: 0.0125rem;
 
 }
 .sec-5 h2{
@@ -386,6 +393,11 @@ letter-spacing: 0.0125rem;
 }
 
 
+.image{
+    width: 238px;
+    height: 300px;
+}
+
 .sec-5-box img{
     width: 238px;
     height: 300px;
@@ -397,12 +409,17 @@ letter-spacing: 0.0125rem;
     gap: 10px;
 }
 .line-1 img{
-    width: 50px;
-    height: 26px;
+    width: 3.125rem;
+    height: 1.625rem;
 }
 
-.line-1 p{
-    color: #96BB7C;
+.line-1 h6{
+color: #96BB7C;
+font-size: 0.80rem;
+font-style: smaller;
+line-height: 1.5rem;
+letter-spacing: 0.0125rem;
+display: ;
 }
 
 .box-sec5{
@@ -415,17 +432,27 @@ letter-spacing: 0.0125rem;
 
 .line-4{
     display: flex;
-    gap: 5px;
-    align-items: flex-end;
+    gap: 1rem;
+    align-items: center;
     
+}
+.line-4 img{
+    width: 1rem;
+    height: 1rem;
 }
 
 .line-4 h6{
-    font-size: 14px;
+color:#737373;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: 0.0125rem;
 }
+
 .line-5{
     display: flex;
-    gap: 5px;
+    gap: 1rem;
 }
 
 .line-5-2{
@@ -456,6 +483,15 @@ border: 1px solid #737373;
     color: white;
 }
 
+.box-sec5 p{
+color: #737373;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem;
+letter-spacing: 0.0125rem;
+}
+
 .box-sec5 h5{
 font-size: 16px;
 font-style: normal;
@@ -469,7 +505,8 @@ letter-spacing: 0.1px;
     gap: 30px;
     margin: auto;
     justify-content: center;
-    margin-top: -40px;
+    padding: 0 5%;
+    width: 100%;
 }
 
 .sec-5{
@@ -714,6 +751,15 @@ letter-spacing: 0.2px;
 
 @media (max-width:1280px){
 
+    .sec-5-bottom{
+        
+    }
+    .sec-5-con{
+        width: 70%;
+        padding: 0 2%;
+        max-width: auto;
+    }
+
    .nav li{
     display: none;
    }
@@ -762,6 +808,11 @@ letter-spacing: 0.2px;
 }
 
 @media  (max-width:769px){
+
+    .sec4-left img{
+        max-width: 25rem;
+    }
+
 
     .hero-main{
         display: flex;
@@ -817,7 +868,7 @@ letter-spacing: 0.2px;
 
     .sec-3-con{
         flex-direction: column;
-        gap: 20px;
+        gap: 5rem;
     }
 
     .sec-4{
@@ -833,13 +884,12 @@ letter-spacing: 0.2px;
     }
 
     .sec-5-bottom{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 400px;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
         align-items: center;
-        margin: 0;
     }
+
     .sec-5{
        display: flex;
        flex-direction: column;
@@ -857,7 +907,30 @@ letter-spacing: 0.2px;
 }
 
 @media (max-width:481px){
+   
     
+    .sec-5-con{
+        max-width: 20rem;
+        text-align: center;
+    }
+
+
+    .sec4-left img{
+        max-width: 20rem;
+    }
+  
+  
+  
+    .sec3-left img{
+
+        max-width: 15rem;
+    }
+
+    .sec3-right{
+        max-width: 15rem;
+    }
+
+
     .hero-section{
         max-width: 17rem;
     }
@@ -889,6 +962,33 @@ letter-spacing: 0.2px;
 
 
 @media (max-width:350px){
+
+    .sec-5-con{
+        max-width: 15rem;
+        text-align: center;
+    }
+   
+   
+    .sec4-left img{
+        max-width: 12rem;
+    }
+  
+    .sec3-right h2{
+        font-size: 2rem;
+    }
+  
+  
+  
+    .sec3-left img{
+
+        max-width: 12rem;
+    }
+
+    .sec3-right{
+        max-width: 12rem;
+    }
+
+
 
     .hero-right img{
         max-width: 12rem;
