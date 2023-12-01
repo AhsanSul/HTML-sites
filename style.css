@@ -83,7 +83,8 @@ letter-spacing: 0.00625rem;
     align-items: center;
     padding: 0 5%;
     width: 100%;
-    padding-top: 200px;
+    position: relative;
+    z-index: 1000;
 }
 
 
@@ -119,6 +120,7 @@ letter-spacing: 0.0125rem;
     background: rgb(239, 248, 237);
     position: absolute;
     top:0;
+    z-index: 0;
 }
 .green-bg-right{
     width: 700px;
@@ -806,7 +808,7 @@ letter-spacing: 0.0125rem;
     width: 31rem;
     gap: 1.8rem;
     transition: all;
-    transition-duration: 1ms;
+    transition-duration: 2s;
     transition-timing-function: ease;
 }
 .part:hover{
@@ -815,7 +817,7 @@ letter-spacing: 0.0125rem;
     transition-duration: 2s;
     background: #96BB7C;
     color: white;
-    transition-duration: 1ms;
+    transition-duration: 2s;
     transition-timing-function: ease;
 }
 
@@ -1137,8 +1139,8 @@ letter-spacing: 0.0125rem;
 
     .sec-2-bars{
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
+        gap: 3rem;
         
 
     }
@@ -1249,6 +1251,7 @@ letter-spacing: 0.0125rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    max-width: 100%;
    }
 
 }
