@@ -915,6 +915,76 @@ border: none;
 border-radius: 0.25rem;
 }
 
+.footer{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.62rem;
+    max-width: 18rem;
+}
+
+.footer li{
+list-style: none;
+color: #737373;
+font-size: 0.85rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: 0.0125rem;
+display: flex;
+gap: 0.62rem;
+align-items: center;
+
+}
+
+.sec{
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    gap:1.25rem ;
+    
+}
+
+.sec i{
+    color: #96BB7C;
+}
+
+
+.last-sec p{
+color: #737373;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: 0.0125rem;
+}
+
+.last-sec{
+    display: flex;
+    gap: 13.31rem;
+    height: 4.625rem;
+    width: 100%;
+    padding: 0 5%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-icons{
+    display: flex;
+    gap: 1.25rem;
+    color: #96BB7C;
+}
+
 @media (max-width:1280px){
 
     .sec-5-bottom{
@@ -958,6 +1028,7 @@ border-radius: 0.25rem;
 
     .sec-4{
         
+
     }
 
     .sec-4-con{
@@ -975,6 +1046,11 @@ border-radius: 0.25rem;
 }
 
 @media  (max-width:769px){
+    
+    .footer{
+        display: none;
+    }
+    
     .email input{
         width: 20rem;
         border: none;
@@ -1102,6 +1178,13 @@ border-radius: 0.25rem;
 
 @media (max-width:481px){
    
+    .last-sec{
+        padding: 3rem 5%;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+
     .sec-9-con p {
      max-width: 15rem;   
     }
