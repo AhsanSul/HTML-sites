@@ -73,7 +73,7 @@ letter-spacing: 0.00625rem;
 
 .Login button:hover{
     background: green;
-    gap: 20px;
+    scale: 1.25;
     font-weight: bold;
 }
 
@@ -115,7 +115,7 @@ letter-spacing: 0.0125rem;
 
 .green-bg-left{
     width: 150px;
-    height: 300px;
+    height: 200px;
     border-bottom-right-radius: 20px;
     background: rgb(239, 248, 237);
     position: absolute;
