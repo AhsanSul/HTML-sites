@@ -754,8 +754,86 @@ letter-spacing: 0.2px;
 }
 
 
+.dp{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
 
+.part-con p{
+color: #737373;
+text-align: center;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem;
+letter-spacing: 0.0125rem;
+max-width: 20rem;
+}
 
+.stars{
+    width: 8rem;
+    height: 1.35rem;
+}
+
+.part h5{
+color: #252B42;
+text-align: center;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: 0.00625rem;
+}
+
+.part h6{
+color: #737373;
+text-align: center; 
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: 0.0125rem;
+
+}
+
+.part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.56rem;
+    flex-direction: column;
+    width: 31rem;
+    gap: 1.8rem;
+}
+
+.part-con{
+    display: flex;
+    flex-direction: column;
+    gap: 0.94rem;
+    width: 28rem;
+    height: 14rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-8-2{
+    display: flex;
+    padding: 5rem 5%;
+    gap: 1.88rem;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.sec-8-con{
+    width: 70%;
+    display: flex;
+    gap: 0.625rem;
+    flex-direction: column;
+    padding: 0 5%;
+    margin: auto;
+}
 
 
 
@@ -819,6 +897,12 @@ letter-spacing: 0.2px;
 }
 
 @media  (max-width:769px){
+
+    .sec-8-2{
+        flex-direction: column;
+        
+    }
+
 
     .sec-6-bottom{
         flex-direction: column;
