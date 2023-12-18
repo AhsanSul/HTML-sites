@@ -421,7 +421,7 @@ font-size: 0.80rem;
 font-style: smaller;
 line-height: 1.5rem;
 letter-spacing: 0.0125rem;
-display: ;
+
 }
 
 .box-sec5{
@@ -1214,7 +1214,9 @@ letter-spacing: 0.0125rem;
         max-width: 20rem;
     }
   
-  
+    .con-2{
+        max-width: 9rem;
+    }
   
     .sec3-left img{
 
@@ -1305,7 +1307,7 @@ letter-spacing: 0.0125rem;
     }
     
     .con-2{
-        max-width: 12rem;
+        max-width: 8rem;
     }
 
     .green-bg-left{
